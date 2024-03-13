@@ -8,8 +8,7 @@ CrackMe 1
   
 ![](images/CrackMe1.2.png) 
 
-- Search String References và tìm đến vị trí “Congrats!”. Có 1 tham chiếu GetDIgItemTextA để lấy item từ text nhập pass.
-- Dòng 00401139 có 1 conditional jump, dựa theo dòng test eax ở trên để so sánh với “cr4ckingL3ssons”, nếu eax = 0 thì dòng congrats được hiển thị, ngược lại sẽ nhảy đến thông báo sai. Như vậy pass là cr4ckingL3ssons.
+- Search String References và tìm đến vị trí “Congrats!”. Có 1 tham chiếu GetDIgItemTextA để lấy item từ text nhập pass. Dòng 00401139 có 1 conditional jump, dựa theo dòng test eax ở trên để so sánh với “cr4ckingL3ssons”, nếu eax = 0 thì dòng congrats được hiển thị, ngược lại sẽ nhảy đến thông báo sai. Như vậy pass là cr4ckingL3ssons.
   
 ![](images/CrackMe1.3.png)
 
