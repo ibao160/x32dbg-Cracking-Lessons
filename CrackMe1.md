@@ -1,5 +1,4 @@
-
-CrackMe 1
+**CrackMe 1**
 - Mở CrackMe1.exe bằng x32dbg.
 
 ![](images/CrackMe1.1.png)
