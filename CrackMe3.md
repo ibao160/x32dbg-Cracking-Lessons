@@ -14,7 +14,9 @@ Ta chỉ cần sửa jne thành je để bypass box đầu.
 ![](images/CrackMe3.3.png)
 
 - Mở file vừa patch để tiếp tục loại bỏ bước tiếp
+  
 ![](images/CrackMe3.4.png)
+
 - Tìm đến vị trí giữa MessageBoxA và PostQuitMessage (là vùng để hiện dialog 2), ta cần jump đến vị trí đó, và ta cần tự tạo lệnh jump command(do không có sẵn). Ta cần sửa dòng 0040110D thành push 0x401121
 
 ![](images/CrackMe3.5.png)
